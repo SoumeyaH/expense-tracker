@@ -5,7 +5,7 @@ const compression = require("compression");
 
 const PORT = process.env.PORT || 4000;
 
-const DB_NAME = process.env.DB_NAME || "expense-tracker";
+const DB_NAME = process.env.DB_NAME || "expense-tracker_db";
 const DB_URL = process.env.MONGODB_URI || `mongodb://localhost/${DB_NAME}`;
 
 const dbOptions = {
